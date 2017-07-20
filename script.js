@@ -70,7 +70,7 @@ function generateImages() {
   $('#gif-area').empty();
   //variables for Giphy API call
   var apiKey = 'dc6zaTOxFJmzC';
-  var queryURL = 'http://api.giphy.com/v1/gifs/search?';
+  var queryURL = 'https://api.giphy.com/v1/gifs/search?';
   var animal = $(this).attr('id');
   var limit = 10;
 
